@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: b7e513ff5857c8d4893458654d3e8598
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _RecMonsterPrefab: {fileID: 6410195280906813366, guid: 3b20c70117675754095ab05ff262e607, type: 3}
+  - recMonster: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

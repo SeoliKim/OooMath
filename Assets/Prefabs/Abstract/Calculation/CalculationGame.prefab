@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5807588305445958112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5807588305445958113}
+  - component: {fileID: -5721411527949302831}
+  - component: {fileID: 5807588305445958119}
+  - component: {fileID: 5807588305445958118}
+  m_Layer: 0
+  m_Name: CalculationGame
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5807588305445958113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5807588305445958112}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-5721411527949302831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5807588305445958112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 493da1513c211014ca21cf0ae213bbe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _CubeObstacleNavmeshPrefabs:
+  - {fileID: 1101449027182035751, guid: 5f6043cbe4e6edd439d34a224ebe9da8, type: 3}
+  - {fileID: 2260490945794924945, guid: 4da06aad2a339eb4c81a1f6b140b3d58, type: 3}
+  - {fileID: 2413261965049168395, guid: 0f8ee429095d3744ea7ee9016d9ea661, type: 3}
+  - {fileID: 3035406493186760274, guid: 37e9670bc969925449d84f017aa6191e, type: 3}
+  - {fileID: 2391913134733258603, guid: 369fac7ecca28704ab529e55e0ee20c7, type: 3}
+  - {fileID: 5179422281849122510, guid: e74d05523a4bf0c4ca7e8671d3885ad6, type: 3}
+  - {fileID: 3537803500247817517, guid: 5967e548d77390742bfb28bdd1460bbb, type: 3}
+  - {fileID: 444954830823197016, guid: 153d1e65e0f4de945a975799ccccf098, type: 3}
+  - {fileID: 4453642342690907661, guid: e3980c7179886694fba42c1ea8b3e276, type: 3}
+  _NumberObstacleNavmeshPrefabs:
+  - {fileID: 5863278717673876909, guid: b71a7434ed55b624290a6554ab07cd05, type: 3}
+  - {fileID: 3476681194885984647, guid: 3e886f7875494cf47af19e9959bfebae, type: 3}
+  - {fileID: 5352271514821481299, guid: e8755489ac46c2c4d89700154bd2d1a4, type: 3}
+  - {fileID: 1720902888278816139, guid: 4a47e1f7f98e58d4bb68867e63568932, type: 3}
+  - {fileID: 4781948019737212078, guid: 14ff855fc68a66f4ebac7e063fa12f78, type: 3}
+  - {fileID: 5119175396180874905, guid: 0a30806afaf15cf47be25bd3cec7e47d, type: 3}
+  - {fileID: 1351003623992075751, guid: 789dcddec5c952846a9e23a18f77fa62, type: 3}
+  - {fileID: 2730527489112351332, guid: 22aecda81bda75143b1a18d6dd6bf5d1, type: 3}
+  - {fileID: 7692187657581857327, guid: a2dffa47e0cdd7945834ef650ff07635, type: 3}
+  - {fileID: 2301997898352693410, guid: 4dc2b8b6230a7f449bd25b20c7289004, type: 3}
+  _sillyMonsterNavmeshPrefabs:
+  - {fileID: 8233073899991285500, guid: b8023174207369441b798e39a9b9443c, type: 3}
+  - {fileID: 877598530280542975, guid: 6610f74130a0f7b428e359bba55d9265, type: 3}
+  - {fileID: 68742562045638087, guid: a3ddbc238050f2344a8742ca4c4a0a1b, type: 3}
+  _RotateIntegralPrefab: {fileID: 3609939800593674345, guid: 1c30844b30413f2458e9902ef63b332f, type: 3}
+  _NullSetBombPrefab: {fileID: 6138374742838564370, guid: 788365e067674854d85ff8d452a9e672, type: 3}
+  _AngryUnEqualPrefab: {fileID: 3087733561744042303, guid: 0caff7db6b333694a86d327987c956e5, type: 3}
+  _moneyPrefab: {fileID: 8880948828500608126, guid: 6fd9ceea56cdf184389a31b805b9b9d2, type: 3}
+  _SlowShadowPrefab: {fileID: 3290508661714199827, guid: 4e5fc9b85718764429beccf4831b37a2, type: 3}
+  _Calc_TransDoorPrefab: {fileID: 6833885691434043753, guid: 5b3d777d36ed06a49a77635409b23be0, type: 3}
+  _RecMonsterNavmeshPrefab0: {fileID: 1701704237880063743, guid: a876b564818196a4892ebad27227a17a, type: 3}
+  _RecMonsterNavmeshPrefab1: {fileID: 684130324472010225, guid: 0920708690718814fa94b2ec0dd9cf2d, type: 3}
+  _RecMonsterNavmeshPrefab2: {fileID: 255820416383400146, guid: 2ffeb5415d68e6840acd466f3b2d9cc3, type: 3}
+  _RecMonsterNavmeshPrefab3: {fileID: 6744386833602416511, guid: abc6b772d44a44e4ba6d8171cc00d83a, type: 3}
+  recMonsters: []
+  obstacles: []
+  money: []
+--- !u!114 &5807588305445958119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5807588305445958112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8183f0d7245c8e244bc1355f639ca884, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _GameLevelPrefeb: {fileID: 2688379121600257907, guid: 24be7bb3273288d44bb7d2029bd475da, type: 3}
+  _PlayerPrefeb: {fileID: 8260435765827872093, guid: 4ac7aaf4f75c8b848b410846bb04a97d, type: 3}
+  _CMPrefab: {fileID: 4626551323256364236, guid: b9fa4571c55f21646b19d986c10d053d, type: 3}
+  _PlatformPrefab: {fileID: 1661995380542554196, guid: 6c93c056e675fbd418e7d8cc6c76688c, type: 3}
+  _BallNumPrefab: {fileID: 3095750349025293116, guid: 2cdd52c30124d37429b28e8b55e07e75, type: 3}
+  _ClawPrefab: {fileID: 4360712914335785106, guid: bc89e230268a40d499faf049c0542bf0, type: 3}
+  platform: {fileID: 0}
+  player: {fileID: 0}
+  cm: {fileID: 0}
+  gameLevel: {fileID: 0}
+  claw: {fileID: 0}
+  ballNums: []
+  ballNumSpeed: 0
+  ballNumAccer: 0
+  playerAccelRate: 0
+  playerConstantRate: 0
+  playervMax: 0
+  sillyMonsterSpeed: 0
+  sillyMonsterAccer: 0
+  mathQLink: 0
+  x: 0
+  firstNum: 0
+  secondNum: 0
+  answer: 0
+--- !u!114 &5807588305445958118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5807588305445958112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e6852c71d01eee4e90921f29ea3f55e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

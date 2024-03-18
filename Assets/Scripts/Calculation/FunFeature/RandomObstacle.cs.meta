@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 5d891a447deff344c850d50f44f662bc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _obn1: {fileID: 1101449027182035751, guid: 5f6043cbe4e6edd439d34a224ebe9da8, type: 3}
+  - _obn2: {instanceID: 0}
+  - _obn3: {instanceID: 0}
+  - _obn4: {instanceID: 0}
+  - _obn5: {instanceID: 0}
+  - _obn6: {instanceID: 0}
+  - _obn7: {instanceID: 0}
+  - _obn8: {instanceID: 0}
+  - _obn9: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

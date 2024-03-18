@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &52385751311321713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 52385751311321714}
+  - component: {fileID: 52385751311321715}
+  - component: {fileID: 3193069255270832120}
+  - component: {fileID: 2501452358904641674}
+  m_Layer: 0
+  m_Name: NumberGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &52385751311321714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52385751311321713}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &52385751311321715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52385751311321713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5a3acd99dde1d4e9aabc60cf176d5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _GameLevelPrefeb: {fileID: 3289729088282443168, guid: 2a9bc2da480ff2f469fe17d6edd81035, type: 3}
+  _CMPrefab: {fileID: 4626551323256364236, guid: b9fa4571c55f21646b19d986c10d053d, type: 3}
+  _NumberStagePrefab: {fileID: 5854340219575579273, guid: 9a5cb77aacae3c44386896431c0e811c, type: 3}
+  _MonsterFactoryPrefab: {fileID: 7665774978244104874, guid: 5bb55a9f03a24794fa1bcbcfe57ac2ca, type: 3}
+  _OooHousePrefab: {fileID: 1375405870151416244, guid: 17d2988966e660149b68d6de48f5231a, type: 3}
+  _PlatformMaterial: {fileID: 0}
+  _PlayerPrefeb: {fileID: 8260435765827872093, guid: 4ac7aaf4f75c8b848b410846bb04a97d, type: 3}
+  _PowerBubbleHolderPrefab: {fileID: 5068251948604618007, guid: 9dc2de4f476936643887818476436041, type: 3}
+  _throwLinePrefab: {fileID: 2094839960497272183, guid: f4996e4f8c36a74499b9895521f2f486, type: 3}
+  playerAccelRate: 0
+  playervMax: 0
+  playerConstantRate: 0
+  numberStage: {fileID: 0}
+  cm: {fileID: 0}
+  gameLevel: {fileID: 0}
+  bubbleHolder: {fileID: 0}
+  monsterFactory: {fileID: 0}
+  oooHouse: {fileID: 0}
+  player: {fileID: 0}
+--- !u!114 &3193069255270832120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52385751311321713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9410e7ef1c6f63a4099cb24b3a1bee29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deadMonsterCount: 0
+--- !u!114 &2501452358904641674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52385751311321713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78d73df342edab54e9e78c8ce033119f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _HelpCardShuffle: {fileID: 0}
+  _HelpCardSave: {fileID: 0}
+  _CoolDownClock: {fileID: 0}
+  coolDownTime: 0
+  _CardBack: {fileID: 0}
+  _SpeedCard: {fileID: 0}
+  _BombCard: {fileID: 0}
+  _BalloonCard: {fileID: 0}
+  _LittleMeCard: {fileID: 0}
+  _FakeMeCard: {fileID: 0}
+  _SuperOooCard: {fileID: 0}
+  helpCards: []
+  gameManager: {fileID: 0}
+  player: {fileID: 0}
